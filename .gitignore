@@ -1,0 +1,9 @@
+# Local environment and credentials. Never commit these.
+.env
+.env.*
+*.pem
+*.key
+
+# Local Postgres scratch data used when running the tests by hand
+pgdata/
+*.log
